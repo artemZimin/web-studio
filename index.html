@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web-studio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-desktop">
+                <a href="#" class="header-desktop__logo">
+                    <img src="assets/img/icons/logo.svg" alt="Логотип">
+                </a>
+                <ul class="header-desktop__nav">
+                    <li class="header-desktop__nav-item">
+                        <a href="index.html" class="nav-item nav-item_active">Главная</a>
+                    </li>
+                    <li class="header-desktop__nav-item">
+                        <div class="dropdown">
+                            <button class="dropdown__btn">
+                                Услуги
+                                <img src="assets/img/icons/arrow.svg" alt="Иконка" class="dropdown__icon">
+                            </button>
+                            <div class="dropdown__content">
+                                <a href="service.html" class="dropdown__link">Лендинг</a>
+                                <a href="service.html" class="dropdown__link">Интернет-магазин</a>
+                                <a href="service.html" class="dropdown__link">Сайт визитка</a>
+                                <a href="service.html" class="dropdown__link">Сложный проект</a>
+                                <a href="service.html" class="dropdown__link">SEO</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="header-desktop__nav-item">
+                        <a href="portfolio.html" class="nav-item">Портфолио</a>
+                    </li>
+                    <li class="header-desktop__nav-item">
+                        <a href="blog.html" class="nav-item">Блог</a>
+                    </li>
+                    <li class="header-desktop__nav-item">
+                        <a href="about.html" class="nav-item">О нас</a>
+                    </li>
+                </ul>
+                <div class="header-desktop__right">
+                    <a href="tel:+79868531235" class="header-desktop__number p">+7 (999) 999 99 99</a>
+                    <button class="btn btn-round">Связаться с нами</button>
+                </div>
+            </div>
+            <div class="header-mobile">
+                <div class="header-mobile__logo">
+                    <img src="assets/img/icons/logo.svg" alt="Логотип">
+                </div>
+                <div class="header-mobile__burger">
+                    <img src="assets/img/icons/burger.svg" alt="Меню">
+                </div>
+            </div>
+        </div>
+        <div class="header-mobile-menu header-mobile-menu_hide">
+            <div class="header-mobile-menu__content">
+                <div class="header-mobile-menu__close-btn">
+                    <img src="assets/img/icons/close.svg" alt="Закрыть">
+                </div>
+                <ul class="header-mobile-menu__nav">
+                    <li class="header-mobile-menu__nav-item">
+                        <a href="index.html" class="nav-item nav-item_active">Главная</a>
+                    </li>
+                    <li class="header-mobile-menu__nav-item">
+                        <div class="dropdown">
+                            <button class="dropdown__btn">
+                                Услуги
+                                <img src="assets/img/icons/arrow.svg" alt="Иконка" class="dropdown__icon">
+                            </button>
+                            <div class="dropdown__content">
+                                <a href="service.html" class="dropdown__link">Лендинг</a>
+                                <a href="service.html" class="dropdown__link">Интернет-магазин</a>
+                                <a href="service.html" class="dropdown__link">Сайт визитка</a>
+                                <a href="service.html" class="dropdown__link">Сложный проект</a>
+                                <a href="service.html" class="dropdown__link">SEO</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="header-mobile-menu__nav-item">
+                        <a href="portfolio.html" class="nav-item">Портфолио</a>
+                    </li>
+                    <li class="header-mobile-menu__nav-item">
+                        <a href="blog.html" class="nav-item">Блог</a>
+                    </li>
+                    <li class="header-mobile-menu__nav-item">
+                        <a href="about.html" class="nav-item">О нас</a>
+                    </li>
+                </ul>
+                <div class="header-mobile-menu__bottom">
+                    <a href="tel:+79868531235" class="header-mobile-menu__number p">+7 (999) 999 99 99</a>
+                    <button class="btn btn-round header-mobile-menu__btn">Связаться с нами</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main-page">
+        <section class="section-1">
+            <div class="section-1__video">
+                <video src="assets/img/sample-5s.mp4" loop autoplay muted></video>
+            </div>
+            <div class="container section-1__content-container">
+                <div class="section-1__content">
+                    <h1 class="h1 section-1__title">Заголовок УТП -</h1>
+                    <h2 class="h1 section-1__title">мб 2 строка</h2>
+                    <p class="p">Таким образом, разбавленное изрядной долей эмпатии, рациональное мышление позволяет
+                        оценить значение существующих финансовых. разбавленное изрядной долей эмпатии.</p>
+                    <button class="btn btn-round">Click to action</button>
+                </div>
+                <img src="assets/img/icons/mouse-down.svg" alt="Прокрутите вниз" class="section-1__mouse-down">
+            </div>
+        </section>
+        <section class="section-2">
+            <div class="container-small">
+                <h4 class="h4">Наши преимущества</h4>
+                <div class="section-2__row">
+                    <div class="card-3">
+                        <h5 class="h5 card-3__head">Заголовок преимущества</h5>
+                        <p class="description-text card-3__description">Сложно сказать, почему сделанные на базе
+                            интернет-аналитики
+                            выводы и по сей день остаются уделом либералов, которые жаждут быть призваны к ответу.
+                            Принимая во
+                            внимание показатели успешности.</p>
+                        <div class="card-3__icon-container">
+                            <img src="assets/img/icons/protection.svg" alt="Иконка" class="card-3__icon">
+                        </div>
+                    </div>
+                    <div class="card-3">
+                        <h5 class="h5 card-3__head">Заголовок преимущества</h5>
+                        <p class="description-text card-3__description">Сложно сказать, почему сделанные на базе
+                            интернет-аналитики
+                            выводы и по сей день остаются уделом либералов, которые жаждут быть призваны к ответу.
+                            Принимая во
+                            внимание показатели успешности.</p>
+                        <div class="card-3__icon-container">
+                            <img src="assets/img/icons/protection.svg" alt="Иконка" class="card-3__icon">
+                        </div>
+                    </div>
+                </div>
+                <div class="section-2__row">
+                    <div class="card-3">
+                        <h5 class="h5 card-3__head">Заголовок преимущества</h5>
+                        <p class="description-text card-3__description">Сложно сказать, почему сделанные на базе
+                            интернет-аналитики
+                            выводы и по сей день остаются уделом либералов, которые жаждут быть призваны к ответу.
+                            Принимая во
+                            внимание показатели успешности.</p>
+                        <div class="card-3__icon-container">
+                            <img src="assets/img/icons/protection.svg" alt="Иконка" class="card-3__icon">
+                        </div>
+                    </div>
+                    <div class="card-3">
+                        <h5 class="h5 card-3__head">Заголовок преимущества</h5>
+                        <p class="description-text card-3__description">Сложно сказать, почему сделанные на базе
+                            интернет-аналитики
+                            выводы и по сей день остаются уделом либералов, которые жаждут быть призваны к ответу.
+                            Принимая во
+                            внимание показатели успешности.</p>
+                        <div class="card-3__icon-container">
+                            <img src="assets/img/icons/protection.svg" alt="Иконка" class="card-3__icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="assets/img/global/pattern.svg" alt="" class="section-2__pattern">
+        </section>
+        <section class="section-3">
+            <div class="section-3__video">
+                <video src="assets/img/sample-5s.mp4" loop autoplay muted></video>
+            </div>
+            <div class="container-small section-3__content">
+                <div class="section-3__wrapper">
+                    <h4 class="h4">Чем мы можем помочь вашему бизнесу</h4>
+                    <div class="section-3__list">
+                        <div class="section-3__list-item">
+                            <h5 class="h5">Наше предложение</h5>
+                            <p class="description-text">Семантический разбор внешних противодействий не даёт нам иного
+                                выбора, кроме определения анализа существующих паттернов поведения. </p>
+                        </div>
+                        <div class="section-3__list-item">
+                            <h5 class="h5">Наше предложение</h5>
+                            <p class="description-text">Семантический разбор внешних противодействий не даёт нам иного
+                                выбора, кроме определения анализа существующих паттернов поведения. </p>
+                        </div>
+                        <div class="section-3__list-item">
+                            <h5 class="h5">Наше предложение</h5>
+                            <p class="description-text">Семантический разбор внешних противодействий не даёт нам иного
+                                выбора, кроме определения анализа существующих паттернов поведения. </p>
+                        </div>
+                        <div class="section-3__list-item">
+                            <h5 class="h5">Наше предложение</h5>
+                            <p class="description-text">Семантический разбор внешних противодействий не даёт нам иного
+                                выбора, кроме определения анализа существующих паттернов поведения. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-4">
+            <div class="container-small">
+                <h4 class="h4">Наши услуги</h4>
+            </div>
+            <div class="container">
+                <div class="section-4__row">
+                    <a href="#" class="card-4">
+                        <div class="card-4__content">
+                            <h5 class="card-4__title h5">Разработка сайта</h5>
+                            <p class="card-4__description description-text">Краткое, емкое описание некоторой услуги.
+                                Строка
+                                должна
+                                быть высотой в 3 строки, максимум 4.</p>
+                        </div>
+                        <p class="card-4__price h5"> от 200 000 ₽</p>
+                        <div class="card-4__line"></div>
+                    </a>
+                    <a href="#" class="card-4">
+                        <div class="card-4__content">
+                            <h5 class="card-4__title h5">Разработка сайта</h5>
+                            <p class="card-4__description description-text">Краткое, емкое описание некоторой услуги.
+                                Строка
+                                должна
+                                быть высотой в 3 строки, максимум 4.</p>
+                        </div>
+                        <p class="card-4__price h5"> от 200 000 ₽</p>
+                        <div class="card-4__line"></div>
+                    </a>
+                    <a href="#" class="card-4">
+                        <div class="card-4__content">
+                            <h5 class="card-4__title h5">Разработка сайта</h5>
+                            <p class="card-4__description description-text">Краткое, емкое описание некоторой услуги.
+                                Строка
+                                должна
+                                быть высотой в 3 строки, максимум 4.</p>
+                        </div>
+                        <p class="card-4__new-price h5"> от 100 000 ₽</p>
+                        <p class="card-4__old-price h5"> от 200 000 ₽</p>
+                        <div class="card-4__line"></div>
+                    </a>
+                </div>
+                <div class="section-4__row">
+                    <a href="#" class="card-4">
+                        <div class="card-4__content">
+                            <h5 class="card-4__title h5">Разработка сайта</h5>
+                            <p class="card-4__description description-text">Краткое, емкое описание некоторой услуги.
+                                Строка
+                                должна
+                                быть высотой в 3 строки, максимум 4.</p>
+                        </div>
+                        <p class="card-4__price h5"> от 200 000 ₽</p>
+                        <div class="card-4__line"></div>
+                    </a>
+                    <a href="#" class="card-4">
+                        <div class="card-4__content">
+                            <h5 class="card-4__title h5">Разработка сайта</h5>
+                            <p class="card-4__description description-text">Краткое, емкое описание некоторой услуги.
+                                Строка
+                                должна
+                                быть высотой в 3 строки, максимум 4.</p>
+                        </div>
+                        <p class="card-4__price h5"> от 200 000 ₽</p>
+                        <div class="card-4__line"></div>
+                    </a>
+                    <a href="#" class="card-4">
+                        <div class="card-4__content">
+                            <h5 class="card-4__title h5">Разработка сайта</h5>
+                            <p class="card-4__description description-text">Краткое, емкое описание некоторой услуги.
+                                Строка
+                                должна
+                                быть высотой в 3 строки, максимум 4.</p>
+                        </div>
+                        <p class="card-4__new-price h5"> от 100 000 ₽</p>
+                        <p class="card-4__old-price h5"> от 200 000 ₽</p>
+                        <div class="card-4__line"></div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="section-5">
+            <form class="contact-with-us">
+                <div class="contact-with-us__flex-item">
+                    <h3 class="h3 contact-with-us__title">Свяжитесь с нами</h3>
+                    <p class="p">Оставьте заявку и опишите ваш проект. Мы&nbsp;свяжемся с вами и проведем консультацию.
+                    </p>
+                    <div class="contact-with-us__img-container">
+                        <img src="assets/img/global/empty.png" alt="Изображение" class="contact-with-us__img">
+                    </div>
+                </div>
+                <div class="contact-with-us__flex-item">
+                    <div class="input contact-with-us__input">
+                        <p class="input__title text-label">Имя: *</p>
+                        <label class="input__text-field">
+                            <input type="text" class="input__default text-label" placeholder="Иванов Иван Иванович">
+                            <img src="assets/img/icons/user.svg" alt="Иконка" class="input__icon">
+                        </label>
+                    </div>
+                    <div class="input contact-with-us__input">
+                        <p class="input__title text-label">E-mail: *</p>
+                        <label class="input__text-field">
+                            <input type="text" class="input__default text-label" placeholder="example@mail.com">
+                            <img src="assets/img/icons/user.svg" alt="Иконка" class="input__icon">
+                        </label>
+                    </div>
+                    <div class="input contact-with-us__input">
+                        <p class="input__title text-label">Телефон: *</p>
+                        <label class="input__text-field">
+                            <input type="text" class="input__default text-label"
+                                placeholder="+ 7 (------) ------ ---- ----">
+                            <img src="assets/img/icons/user.svg" alt="Иконка" class="input__icon">
+                        </label>
+                    </div>
+                    <div class="input contact-with-us__input">
+                        <p class="input__title text-label">Комментарий:</p>
+                        <label class="input__text-field contact-with-us__textarea-field">
+                            <textarea rows="5" class="input__default text-label input contact-with-us__textarea"
+                                placeholder="Комментарий..."></textarea>
+                            <img src="assets/img/icons/user.svg" alt="Иконка" class="input__icon">
+                        </label>
+                    </div>
+                    <div class="contact-with-us__bottom">
+                        <label class="checkbox">
+                            <input type="checkbox" class="checkbox__default">
+                            <div class="checkbox__custom">
+                                <div class="checkbox__dot"></div>
+                            </div>
+                            <span class="checkbox__label caption">
+                                Я согласен на <a href="#" target="_blank" class="contact-with-us__link">обработку
+                                    персональных данных</a>
+                            </span>
+                        </label>
+                        <button class="btn btn-fill btn-round">
+                            Отправить
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <button class="btn btn-fill btn-round main-page__float-btn">
+            Связаться с нами
+            <img class="btn__icon" src="assets/img/icons/phone.svg" alt="Иконка">
+        </button>
+        <div class="modal-background">
+            <form class="modal">
+                <h3 class="h3 modal__title">Связаться с нами</h3>
+                <div class="input modal__input">
+                    <p class="input__title text-label">Имя: *</p>
+                    <label class="input__text-field">
+                        <input type="text" class="input__default text-label" placeholder="Иванов Иван Иванович">
+                        <i class="fa-solid fa-user input__icon"></i>
+                    </label>
+                </div>
+                <div class="input modal__input">
+                    <p class="input__title text-label">E-mail: *</p>
+                    <label class="input__text-field">
+                        <input type="text" class="input__default text-label" placeholder="example@mail.com">
+                        <i class="fa-solid fa-envelope input__icon"></i>
+                    </label>
+                </div>
+                <div class="input modal__input">
+                    <p class="input__title text-label">Телефон: *</p>
+                    <label class="input__text-field">
+                        <input type="text" class="input__default text-label" placeholder="+ 7 (------) ------ ---- ----">
+                        <i class="fa-solid fa-phone input__icon"></i>
+                    </label>
+                </div>
+                <div class="input modal__input">
+                    <p class="input__title text-label">Комментарий:</p>
+                    <label class="input__text-field modal__textarea-field">
+                        <textarea rows="5" class="input__default text-label input contact-with-us__textarea"
+                            placeholder="Комментарий..."></textarea>
+                        <i class="fa-solid fa-comment input__icon"></i>
+                    </label>
+                </div>
+                <div class="modal__bottom">
+                    <label class="checkbox">
+                        <input type="checkbox" class="checkbox__default">
+                        <div class="checkbox__custom">
+                            <div class="checkbox__dot"></div>
+                        </div>
+                        <span class="checkbox__label caption">
+                            Я согласен на <a href="#" target="_blank" class="contact-with-us__link">обработку персональных
+                                данных</a>
+                        </span>
+                    </label>
+                    <button class="btn btn-fill modal__submit">
+                        Отправить
+                    </button>
+                </div>
+                <img src="assets/img/icons/close-modal.svg" alt="Закрыть" class="modal__close-btn">
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container-small">
+            <div class="footer__items">
+                <div class="footer__item">
+                    <h5 class="h5 footer__title">Навигация по сайту</h5>
+                    <div class="footer__navigation">
+                        <ul class="footer__navigation-list">
+                            <li class="footer__navigation-list-link">
+                                <a href="index.html" class="link">Главная</a>
+                            </li>
+                            <li class="footer__navigation-list-link">
+                                <a href="service.html" class="link">Услуги</a>
+                            </li>
+                            <li class="footer__navigation-list-link">
+                                <a href="portfolio.html" class="link">Портфолио</a>
+                            </li>
+                            <li class="footer__navigation-list-link">
+                                <a href="blog.html" class="link">Блог</a>
+                            </li>
+                            <li class="footer__navigation-list-link">
+                                <a href="about.html" class="link">О нас</a>
+                            </li>
+                        </ul>
+                        <ul class="footer__navigation-list">
+                            <li class="footer__navigation-list-link">
+                                <a href="service.html" class="link">Лендинг</a>
+                            </li>
+                            <li class="footer__navigation-list-link">
+                                <a href="service.html" class="link">Интернет-магазин</a>
+                            </li>
+                            <li class="footer__navigation-list-link">
+                                <a href="service.html" class="link">Сайт визитка</a>
+                            </li>
+                            <li class="footer__navigation-list-link">
+                                <a href="service.html" class="link">Сложный проект</a>
+                            </li>
+                            <li class="footer__navigation-list-link">
+                                <a href="service.html" class="link">SEO</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <h5 class="h5 footer__title">Контакты</h5>
+                    <div class="footer__contacts">
+                        <div class="footer__contact">
+                            <div class="footer__icon-container">
+                                <img src="assets/img/icons/phone.svg" alt="Телефон" class="footer__icon">
+                            </div>
+                            <a href="tel:+79868531235" class="link footer__contact-link">+7 (999) 999 99 99</a>
+                        </div>
+                        <div class="footer__contact">
+                            <div class="footer__icon-container">
+                                <img src="assets/img/icons/mail.svg" alt="Почта" class="footer__icon">
+                            </div>
+                            <a href="mailto:example@example.com"
+                                class="link footer__contact-link">example@example.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__logo">
+                        <img src="assets/img/icons/logo.svg" alt="Логотип">
+                        <p class="link footer__social">Мы в соц. сетях</p>
+                        <div>
+                            <a href="#" class="footer__social">
+                                <img src="assets/img/icons/insta.svg" alt="Инстаграм">
+                            </a>
+                        </div>
+                        <div class="footer__personal-container">
+                            <a href="#" class="link footer__personal">
+                                Согласие на обработку персональных данных
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__hr"></div>
+            <div class="footer__bottom">
+                <p class="link footer__charter">© 2022 Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/8573f1c28c.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

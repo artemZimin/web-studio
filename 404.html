@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-desktop">
+                <a href="#" class="header-desktop__logo">
+                    <img src="assets/img/icons/logo.svg" alt="Логотип">
+                </a>
+                <ul class="header-desktop__nav">
+                    <li class="header-desktop__nav-item">
+                        <a href="index.html" class="nav-item nav-item_active">Главная</a>
+                    </li>
+                    <li class="header-desktop__nav-item">
+                        <div class="dropdown">
+                            <button class="dropdown__btn">
+                                Услуги
+                                <img src="assets/img/icons/arrow.svg" alt="Иконка" class="dropdown__icon">
+                            </button>
+                            <div class="dropdown__content">
+                                <a href="service.html" class="dropdown__link">Лендинг</a>
+                                <a href="service.html" class="dropdown__link">Интернет-магазин</a>
+                                <a href="service.html" class="dropdown__link">Сайт визитка</a>
+                                <a href="service.html" class="dropdown__link">Сложный проект</a>
+                                <a href="service.html" class="dropdown__link">SEO</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="header-desktop__nav-item">
+                        <a href="portfolio.html" class="nav-item">Портфолио</a>
+                    </li>
+                    <li class="header-desktop__nav-item">
+                        <a href="blog.html" class="nav-item">Блог</a>
+                    </li>
+                    <li class="header-desktop__nav-item">
+                        <a href="about.html" class="nav-item">О нас</a>
+                    </li>
+                </ul>
+                <div class="header-desktop__right">
+                    <a href="tel:+79868531235" class="header-desktop__number p">+7 (999) 999 99 99</a>
+                    <button class="btn btn-round">Связаться с нами</button>
+                </div>
+            </div>
+            <div class="header-mobile">
+                <div class="header-mobile__logo">
+                    <img src="assets/img/icons/logo.svg" alt="Логотип">
+                </div>
+                <div class="header-mobile__burger">
+                    <img src="assets/img/icons/burger.svg" alt="Меню">
+                </div>
+            </div>
+        </div>
+        <div class="header-mobile-menu header-mobile-menu_hide">
+            <div class="header-mobile-menu__content">
+                <div class="header-mobile-menu__close-btn">
+                    <img src="assets/img/icons/close.svg" alt="Закрыть">
+                </div>
+                <ul class="header-mobile-menu__nav">
+                    <li class="header-mobile-menu__nav-item">
+                        <a href="index.html" class="nav-item nav-item_active">Главная</a>
+                    </li>
+                    <li class="header-mobile-menu__nav-item">
+                        <div class="dropdown">
+                            <button class="dropdown__btn">
+                                Услуги
+                                <img src="assets/img/icons/arrow.svg" alt="Иконка" class="dropdown__icon">
+                            </button>
+                            <div class="dropdown__content">
+                                <a href="service.html" class="dropdown__link">Лендинг</a>
+                                <a href="service.html" class="dropdown__link">Интернет-магазин</a>
+                                <a href="service.html" class="dropdown__link">Сайт визитка</a>
+                                <a href="service.html" class="dropdown__link">Сложный проект</a>
+                                <a href="service.html" class="dropdown__link">SEO</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="header-mobile-menu__nav-item">
+                        <a href="portfolio.html" class="nav-item">Портфолио</a>
+                    </li>
+                    <li class="header-mobile-menu__nav-item">
+                        <a href="blog.html" class="nav-item">Блог</a>
+                    </li>
+                    <li class="header-mobile-menu__nav-item">
+                        <a href="about.html" class="nav-item">О нас</a>
+                    </li>
+                </ul>
+                <div class="header-mobile-menu__bottom">
+                    <a href="tel:+79868531235" class="header-mobile-menu__number p">+7 (999) 999 99 99</a>
+                    <button class="btn btn-round header-mobile-menu__btn">Связаться с нами</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="page-404">
+        <img src="assets/img/icons/404.svg" alt="Ошибка 404">
+        <button class="btn btn-fill btn-round main-page__float-btn">
+            Связаться с нами
+            <img class="btn__icon" src="assets/img/icons/phone.svg" alt="Иконка">
+        </button>
+        <div class="modal-background">
+            <form class="modal">
+                <h3 class="h3 modal__title">Связаться с нами</h3>
+                <div class="input modal__input">
+                    <p class="input__title text-label">Имя: *</p>
+                    <label class="input__text-field">
+                        <input type="text" class="input__default text-label" placeholder="Иванов Иван Иванович">
+                        <i class="fa-solid fa-user input__icon"></i>
+                    </label>
+                </div>
+                <div class="input modal__input">
+                    <p class="input__title text-label">E-mail: *</p>
+                    <label class="input__text-field">
+                        <input type="text" class="input__default text-label" placeholder="example@mail.com">
+                        <i class="fa-solid fa-envelope input__icon"></i>
+                    </label>
+                </div>
+                <div class="input modal__input">
+                    <p class="input__title text-label">Телефон: *</p>
+                    <label class="input__text-field">
+                        <input type="text" class="input__default text-label" placeholder="+ 7 (------) ------ ---- ----">
+                        <i class="fa-solid fa-phone input__icon"></i>
+                    </label>
+                </div>
+                <div class="input modal__input">
+                    <p class="input__title text-label">Комментарий:</p>
+                    <label class="input__text-field modal__textarea-field">
+                        <textarea rows="5" class="input__default text-label input contact-with-us__textarea"
+                            placeholder="Комментарий..."></textarea>
+                        <i class="fa-solid fa-comment input__icon"></i>
+                    </label>
+                </div>
+                <div class="modal__bottom">
+                    <label class="checkbox">
+                        <input type="checkbox" class="checkbox__default">
+                        <div class="checkbox__custom">
+                            <div class="checkbox__dot"></div>
+                        </div>
+                        <span class="checkbox__label caption">
+                            Я согласен на <a href="#" target="_blank" class="contact-with-us__link">обработку персональных
+                                данных</a>
+                        </span>
+                    </label>
+                    <button class="btn btn-fill modal__submit">
+                        Отправить
+                    </button>
+                </div>
+                <img src="assets/img/icons/close-modal.svg" alt="Закрыть" class="modal__close-btn">
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container-small">
+            <div class="footer__items">
+                <div class="footer__item">
+                    <h5 class="h5 footer__title">Навигация по сайту</h5>
+                    <div class="footer__navigation">
+                        <ul class="footer__navigation-list">
+                            <li class="footer__navigation-list-link">
+                                <a href="index.html" class="link">Главная</a>
+                            </li>
+                            <li class="footer__navigation-list-link">
+                                <a href="service.html" class="link">Услуги</a>
+                            </li>
+                            <li class="footer__navigation-list-link">
+                                <a href="portfolio.html" class="link">Портфолио</a>
+                            </li>
+                            <li class="footer__navigation-list-link">
+                                <a href="blog.html" class="link">Блог</a>
+                            </li>
+                            <li class="footer__navigation-list-link">
+                                <a href="about.html" class="link">О нас</a>
+                            </li>
+                        </ul>
+                        <ul class="footer__navigation-list">
+                            <li class="footer__navigation-list-link">
+                                <a href="service.html" class="link">Лендинг</a>
+                            </li>
+                            <li class="footer__navigation-list-link">
+                                <a href="service.html" class="link">Интернет-магазин</a>
+                            </li>
+                            <li class="footer__navigation-list-link">
+                                <a href="service.html" class="link">Сайт визитка</a>
+                            </li>
+                            <li class="footer__navigation-list-link">
+                                <a href="service.html" class="link">Сложный проект</a>
+                            </li>
+                            <li class="footer__navigation-list-link">
+                                <a href="service.html" class="link">SEO</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <h5 class="h5 footer__title">Контакты</h5>
+                    <div class="footer__contacts">
+                        <div class="footer__contact">
+                            <div class="footer__icon-container">
+                                <img src="assets/img/icons/phone.svg" alt="Телефон" class="footer__icon">
+                            </div>
+                            <a href="tel:+79868531235" class="link footer__contact-link">+7 (999) 999 99 99</a>
+                        </div>
+                        <div class="footer__contact">
+                            <div class="footer__icon-container">
+                                <img src="assets/img/icons/mail.svg" alt="Почта" class="footer__icon">
+                            </div>
+                            <a href="mailto:example@example.com"
+                                class="link footer__contact-link">example@example.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__logo">
+                        <img src="assets/img/icons/logo.svg" alt="Логотип">
+                        <p class="link footer__social">Мы в соц. сетях</p>
+                        <div>
+                            <a href="#" class="footer__social">
+                                <img src="assets/img/icons/insta.svg" alt="Инстаграм">
+                            </a>
+                        </div>
+                        <div class="footer__personal-container">
+                            <a href="#" class="link footer__personal">
+                                Согласие на обработку персональных данных
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__hr"></div>
+            <div class="footer__bottom">
+                <p class="link footer__charter">© 2022 Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
